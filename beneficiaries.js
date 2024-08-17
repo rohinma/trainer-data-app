@@ -8,7 +8,7 @@ document.addEventListener('DOMContentLoaded', function () {
     }
 
     // Fetch the beneficiaries associated with the trainerID from Google Sheets
-    fetch(`https://sheetdb.io/api/v1/ca81e2i10llig/search?trainerID=${trainerID}`)
+    fetch(`https://sheetdb.io/api/v1/ca81e2i10llig/search?trainerID=1`)
         .then(response => response.json())
         .then(data => {
             console.log('Beneficiaries data:', data);  // Debugging line
