@@ -3,7 +3,7 @@ document.addEventListener('DOMContentLoaded', function () {
     const beneficiaryDropdown = document.getElementById('beneficiary');
 
     // Fetch the beneficiaries associated with the trainerID from Google Sheets
-    fetch(`https://sheetdb.io/api/v1/ca81e2i10llig=${trainerID}`)
+    fetch(`https://sheetdb.io/api/v1/ca81e2i10llig/search?trainerID=${trainerID}`)
         .then(response => response.json())
         .then(data => {
             data.forEach(beneficiary => {
