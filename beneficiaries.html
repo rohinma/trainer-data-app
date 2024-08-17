@@ -3,32 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Select Beneficiary</title>
+    <title>Beneficiaries List</title>
     <style>
-        form {
-            margin: 20px;
+        #beneficiariesList {
+            list-style-type: none;
+            padding: 0;
         }
-        select {
-            display: block;
-            margin-bottom: 10px;
-            width: 600px; /* Adjust the width as needed */
-            font-size: 16px; /* Optional: adjust font size for better readability */
-        }
-        button {
-            display: block;
-            margin-top: 10px;
+        #beneficiariesList li {
+            margin: 5px 0;
         }
     </style>
 </head>
 <body>
-    <h1>Select Beneficiary</h1>
-    <form id="beneficiaryForm">
-        <label for="beneficiary">Beneficiary:</label>
-        <select id="beneficiary" name="beneficiary" required>
-            <!-- Beneficiaries will be populated by JavaScript -->
-        </select>
-        <button type="submit">Proceed to Data Entry</button>
-    </form>
+    <h1>Beneficiaries List</h1>
+    <ul id="beneficiariesList">
+        <!-- Beneficiaries will be populated by JavaScript -->
+    </ul>
+
+    <button id="proceedButton">Proceed to Data Entry</button>
 
     <script src="beneficiaries.js"></script>
 </body>
