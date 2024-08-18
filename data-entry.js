@@ -25,7 +25,7 @@ document.addEventListener('DOMContentLoaded', function () {
         };
 
         // Send the data to the Google Sheet using the SheetDB API
-        fetch('https://sheetdb.io/api/v1/96jn3s5pmeu0b', {
+        fetch('https://sheetdb.io/api/v1/r0qzgwj2qmk4v', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json'
