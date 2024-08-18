@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', function () {
     const trainerID = localStorage.getItem('trainerID');
-    const beneficiariesList = document.getElementById('beneficiaries');
+    const beneficiariesList = document.getElementById('beneficiariesList');
     const proceedButton = document.getElementById('proceedButton');
 
     if (!trainerID) {
